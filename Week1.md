@@ -2,7 +2,7 @@
 *ITALIC*
 # Lab Report 1
 ## THE SUBHEADING OF THE FIRST HEADING
-[Link] (www.youtube.com)
+[Youtube](www.youtube.com)
 ![Image](dog.jpg) 
 > Blockquote
 >
