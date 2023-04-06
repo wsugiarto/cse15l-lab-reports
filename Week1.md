@@ -1,10 +1,12 @@
 **THIS IS A BOLDED TEXT** 
 *ITALIC*
-# THE FIRST HEADING
+# Lab Report 1
 ## THE SUBHEADING OF THE FIRST HEADING
 [Link] (www.youtube.com)
-![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhuman&psig=AOvVaw2koMBI9ZElSooNUsKWLH9p&ust=1680898230616000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLiS44GIlv4CFQAAAAAdAAAAABAD) 
+![Image](dog.jpg) 
 > Blockquote
+>
+
 - First Point
 - Second Point
 - Third Point
