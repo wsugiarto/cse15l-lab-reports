@@ -12,9 +12,13 @@
 - Third Point
 1. First
 2. Second
+
+
 Horizontal rule: 
 --------
+
 `print("Hello")` this is inline code
+
 ```
 print("HELLO WORLD")
 //This should print hello world
