@@ -8,7 +8,7 @@
 - Make sure that when you are prompted for a username you copy and paste the one you found in the grey box starting with cs15l.
 
 ## How to setup a connection with a remote server
-1. Download VSCode [Here](https://code.visualstudio.com/). It looks like this when you are done:
+1. Download VSCode [Here](https://code.visualstudio.com/). There should not be any difficulties with installing VSCode as long as you continue to choose the default options selected by the installer. It looks like this when you are done:
 ![Image](lab1vsc.png)
 2. If you are on Windows download [Git for Windows](https://gitforwindows.org/), but if you are on MAC you can skip this step. Just use the default options when prompted.
 3. Once Git is installed or if you are on MAC, follow the instructions [here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994).
@@ -19,6 +19,7 @@
 
 
 ## Running some commands
-You can try out some commands like cd, ls, pwd, mkdir, and cp in the terminal. If you want to exit the remote terminal just type exit in the terminal. Below you can see how this should look like for some commands. 
+You can try out some commands like cd, ls, pwd, mkdir, and cp in the terminal. If you want to exit the remote terminal just type exit in the terminal. Below you can see how this should look like for some commands. In the picture below, I used cat /home/linux/ieng6/cs15lsp23/public/hello.txt on the remote server, which is supposed to be print the contents of hello.txt according to the path I provided, but as you can see there is no such path. Then to run commands on my local computer I typed exit and entered, then ran the pwd to see my local working directory. 
+ 
 ![Image](lab1commands.png)
 
