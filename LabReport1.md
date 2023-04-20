@@ -19,7 +19,19 @@
 
 
 ## Running some commands
-You can try out some commands like cd, ls, pwd, mkdir, and cp in the terminal. If you want to exit the remote terminal just type exit in the terminal. Below you can see how this should look like for some commands. In the picture below, I used cat /home/linux/ieng6/cs15lsp23/public/hello.txt on the remote server, which is supposed to be print the contents of hello.txt according to the path I provided, but as you can see there is no such path. Then to run commands on my local computer I typed exit and entered, then ran the pwd to see my local working directory. 
+You can try out some commands like `cd`, `ls`, `pwd`, `mkdir`, and `cp` in the terminal. If you want to exit the remote terminal just type exit in the terminal. Below you can see how this should look like for some commands. 
+
+Describing commands:
+- `cat` on ieng6 - I used `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` on the remote server, which is supposed to be print the contents of `hello.txt` according to the path I provided, but as you can see there is no such path. 
+- `pwd` - Then to run commands on my local computer I typed exit and entered, then ran the pwd to see my local working directory. 
+- `ls` - In the second and third picture below, I executed the `ls` command with certain modifiers like `ls - lat` and `ls -a` and also the normal `ls`. `ls` on its own will list the files in a certain manner. With `-lat` it will display each file in the current working directory in a row each with details like the user and data accessed. With `-a` it is similar with normal `ls` but contains more from `..` referring to the parent directory and the current working directory. On the fourth image below we can see how I tried to list the files in a classmates folder and it denied access. 
+- `cp /home/linux/ieng6/cs15lsp23/public/README.class ~/ ` - This command uses `cp` to copy `README.class` from the path `/home/linux/ieng6/cs15lsp23/public/README.class` to the home directory represented by `~/`. In the fourth image below, I show how initially there is no `README.class` in the home directory then after `cp` it is copied there. 
+- `cd` - changes the working directory.
+- `pwd` - displays the current working directory.
+- `mkdir` - makes a new directory.
  
 ![Image](lab1commands.png)
+![Image](commands2png.png)
+![Image](commands3.png)
+![Image](commands4.png)
 
